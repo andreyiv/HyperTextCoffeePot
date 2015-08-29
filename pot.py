@@ -1,5 +1,7 @@
 """ A sample coffee or tea pot. """
 
+import brew
+
 
 class Pot(object):
 
@@ -13,6 +15,7 @@ class Pot(object):
         return are_you_a_teapot()
 
     def brew(self):
+        brew.brew()
         return are_you_a_teapot()
 
 
